@@ -10,6 +10,7 @@ namespace NetTasks
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello World");
         }
     }
 }
