@@ -26,15 +26,10 @@ namespace NetTasks.Tasks
         }
 
         public static int InThreeSteps(int distance)
-        {          
-            if (distance == 1 || distance == 0)
-            {
-                return 1;
-            }
-            else if (distance == 2)
-            {
-                return 2;
-            }
+        {
+            if (distance == 0) return 0;
+            else if (distance == 1) return 1;
+            else if (distance == 2) return 2;
             else
             {
                 return InThreeSteps(distance - 3) +

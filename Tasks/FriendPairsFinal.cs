@@ -21,7 +21,7 @@ namespace NetTasks.Tasks
             {
                 try
                 {
-                    Console.WriteLine("\n Input n");
+                    Console.WriteLine("\nInput n:");
                     PersonsNumber = Convert.ToInt32(Console.ReadLine());
                     check = false;
                 }

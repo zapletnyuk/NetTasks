@@ -16,7 +16,7 @@ namespace NetTasks.Tasks
             {
                 try
                 {
-                    int InputNum = Convert.ToInt32(Console.ReadLine());
+                    InputNum = Convert.ToInt32(Console.ReadLine());
                     check = false;
                 }
                 catch (Exception e)
@@ -65,7 +65,6 @@ namespace NetTasks.Tasks
         {
             Input();
             Console.WriteLine(countWays(InputNum));
-            Console.ReadKey();
         }
     }
 }
