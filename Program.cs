@@ -51,7 +51,7 @@ namespace NetTasks
                         break;
                 };
                 Console.WriteLine("Exit the program? True/False?");
-                exit = Convert.ToBoolean(Console.ReadLine().ToLower());
+                exit = (Console.ReadLine().Trim().ToUpper() == "TRUE") ? true : false;
             }
             Console.WriteLine("You've exited the program.");
             Console.ReadKey();
