@@ -45,6 +45,12 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tasks\FriendPairsFinal.cs" />
+    <Compile Include="Tasks\InterestNum.cs" />
+    <Compile Include="Tasks\Palindromic.cs" />
+    <Compile Include="Tasks\Partitions.cs" />
+    <Compile Include="Tasks\NumberOfWaysWithoutCrossing.cs" />
+    <Compile Include="Tasks\WaysToCover.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
