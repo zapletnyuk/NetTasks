@@ -73,6 +73,7 @@ namespace NetTasks.Tasks
                         throw new Exception("Error: String not more than 100 symbols ");
                         
                     }
+                    check = false;
                     Console.Write("Output: " + Longest(input));
                 }
                 catch (Exception e)
