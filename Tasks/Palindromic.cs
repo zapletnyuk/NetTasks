@@ -1,5 +1,5 @@
 ﻿using System;
-namespace NetTasks
+namespace NetTasks.Tasks
 {
     /// <summary>
     /// Class for calculating the longest palindromic sequence

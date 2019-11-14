@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetTasks
+namespace NetTasks.Tasks
 {
     public static class WaysToCover
     {  

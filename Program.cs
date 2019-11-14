@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using NetTasks.Tasks;
 namespace NetTasks
 {
     class Program
@@ -37,10 +37,10 @@ namespace NetTasks
                         WaysToCover.DisplayInThreeSteps();
                         break;
                     case 7:
-
+                        WaysCounterClass.Display();
                         break;
                     case 8:
-
+                        FencePainter.Display();
                         break;
                     default:
                         Console.WriteLine("Entered wrong number.");

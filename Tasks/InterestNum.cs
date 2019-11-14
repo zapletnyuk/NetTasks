@@ -1,7 +1,7 @@
 ﻿using System;
 using static System.Int32;
 
-namespace NetTasks
+namespace NetTasks.Tasks
 {
     public static class InterestNum
     {
