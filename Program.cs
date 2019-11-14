@@ -14,7 +14,11 @@ namespace NetTasks
             int taskNumber = 0;
             while (!exit)
             {
-                Console.Write("Enter number of task to solve: ");
+                Console.Write("Enter number of task to solve: \n"+
+                    "1. Partisions             5. Interesting Numbers \n"+
+                    "2. Ways Without Crossing  6. Display In Three Steps \n"+
+                    "3. Palindromic            7. Ways Counter \n"+
+                    "4. Friends Pairs          8. Fence Painter \n");
                 taskNumber = Convert.ToInt32(Console.ReadLine());
                 switch (taskNumber)
                 {

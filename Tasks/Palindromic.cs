@@ -60,17 +60,26 @@ namespace NetTasks.Tasks
         public static void Display()
         {
             Console.WriteLine("Given a string which we have to check how many symbols have the biggest palindrome which is included in the given one.");
-            Console.Write("Input: ");
-            string input = Console.ReadLine();
-
-            if (input.Length > 100)
+            bool check = true;
+            do
             {
-                Console.WriteLine("Error: String not more than 100 symbols ");
-                return;
-            }
+                Console.Write("Input: ");
+                try
+                {
+                    string input = Console.ReadLine();
 
-            Console.Write("Output: " + Longest(input));
+                    if (input.Length > 100)
+                    {
+                        throw new Exception("Error: String not more than 100 symbols ");
+                        
+                    }
+                    Console.Write("Output: " + Longest(input));
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+            } while (check);
         }
-
     }
 }
